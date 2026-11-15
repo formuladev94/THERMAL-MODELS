@@ -27,6 +27,8 @@ This notebook works with real, continuous chronological data collected by the Cu
 * **LSTM Forecasting Model:** Implements a recurrent neural network (LSTM using TensorFlow/Keras) that analyzes a 24-hour Martian historical window to predict the next hour's air and ground temperatures, benchmarking performance against a naive persistence baseline.
 * **Data Export:** Automatically exports processed tables to `.csv` and `.xlsx` formats.
 
+<img width="1189" height="490" alt="Gale Crater (Curiosity REMS) daily temperature range" src="https://github.com/user-attachments/assets/b990a6ba-c6ca-4531-b5b5-f751059ff66b" />
+
 ---
 
 ## 🌙 2. Lunar Polar Temperature Table (LRO Diviner)
@@ -37,6 +39,8 @@ This notebook analyzes lunar polar regions using accumulated bolometric brightne
 * **Region of Interest (ROI) Selection:** Allows analysis of key polar craters (*Shackleton*, *Haworth*, *Shoemaker*, *Faustini*, *Cabeus*, *Peary*) or custom latitude/longitude coordinates with an adjustable radius.
 * **Full Lunar Cycle:** Generates 96-step temperature tables per lunar day (~7.4 hours per step) for both summer and winter seasons.
 * **Thermal Stability Analysis:** Helps evaluate extreme thermal conditions and potential water-ice stability zones (referenced against the 110 K threshold).
+
+<img width="1188" height="490" alt="shackleton surface temperature (Diviner 2009 - 2019)" src="https://github.com/user-attachments/assets/3f49ddba-661a-49d3-877f-0d4e847d0c20" />
 
 ---
 
